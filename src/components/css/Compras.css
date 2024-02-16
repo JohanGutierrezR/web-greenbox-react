@@ -1,0 +1,60 @@
+/* contenedor */
+
+.containe1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.imagen-box {
+	display: flex;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.imagen-box img {
+	width: 18rem;
+	height: 18rem;
+	margin-right: 10rem;
+	margin-top: 3rem;
+	transition: transform 0.3s ease-in-out;
+}
+.imagen-box img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.text1 {
+	font-size: 2rem;
+	color: black;
+	text-align: left;
+	max-width: 500px;
+}
+
+.total p {
+	font-size: 3rem;
+	text-align: center;
+	transition: transform 0.3s ease-in-out;
+}
+.total p:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.bta {
+	display: flex;
+	justify-content: flex-end;
+	margin: 1rem;
+}
+
+.bta button {
+	font-size: 1.5rem;
+	font-weight: 800;
+	padding: 1rem;
+	background: var(--verde);
+	cursor: pointer;
+	color: var(--blanco);
+}
+
+.bta button:hover {
+	background-color: var(--amarilloVerde);
+}

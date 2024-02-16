@@ -1,0 +1,147 @@
+/* Agrega estos estilos al archivo ProductosGeneral.css */
+
+.contenido-frutas {
+	display: flex;
+	margin: auto;
+}
+
+.textoEncabezadoIzquierdo {
+	width: 30%;
+}
+
+.textoEncabezadoIzquierdo h1 {
+	margin: 2rem;
+	color: var(--verde);
+	font-weight: 600;
+	font-size: 3rem;
+}
+
+.color30 {
+	background-color: #dadfb9;
+	width: 100%;
+	height: 100vh;
+	float: left;
+}
+
+.culm {
+	font-weight: bold;
+}
+
+.culm p {
+	margin: 2rem;
+	font-size: 1.8rem;
+}
+.culm a {
+	font-size: 2rem;
+	padding: 4rem;
+	text-decoration: none;
+	color: black;
+}
+
+.culm1 p {
+	margin: 1.5rem;
+	font-size: 1.4rem;
+	margin-left: 2rem;
+}
+
+.linea p {
+	font-size: 2rem;
+	text-align: center;
+	color: rgba(105, 102, 102, 0.932);
+}
+
+.img1,
+.img2 {
+	width: 70%;
+}
+
+.img-frutas img {
+	margin-top: 5rem;
+	height: 25rem;
+	width: 25rem;
+	transition: transform 0.3s ease-in-out;
+}
+.img-frutas img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.img-frutas {
+	text-align: center;
+}
+
+.img-frutas p {
+	font-weight: bold;
+	color: black;
+	font-size: 2rem;
+}
+.img-frutas button {
+	background-color: var(--verde);
+	color: white;
+	font-size: 2rem;
+	padding: 0.5rem 1rem;
+	border: none;
+	transition: transform 0.3s ease-in-out;
+}
+
+.img-frutas button:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+/* Estilos para el contenedor del carrito de compras */
+.carrito-compras {
+	position: fixed;
+	top: 7.3rem;
+	right: 0;
+	padding: 1.5rem;
+	background-color: var(--verdeClaro);
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	z-index: 1000;
+	width: 24rem;
+}
+
+.carrito-compras button {
+	background-color: var(--verde);
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.carrito-compras button:hover {
+	background-color: #45a049;
+}
+
+.carrito-compras ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 10px;
+}
+
+.carrito-compras li {
+	margin-bottom: 12px;
+	border: 1px solid #ccc;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-content: stretch;
+	align-items: center;
+}
+
+.carrito-compras li button {
+	background-color: red;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.carrito-compras li button:hover {
+	background-color: #e04111;
+}
+
+.carrito-compras p {
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+}

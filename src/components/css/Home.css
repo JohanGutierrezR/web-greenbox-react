@@ -1,0 +1,210 @@
+:root {
+	--claro: #ffffe9;
+	--verde: #114e38;
+	--verdeClaro: #dadfb9;
+	--amarilloVerde: #76a636;
+	--blanco: white;
+	--texto: 'Montserrat', sans-serif;
+}
+
+/* Container*/
+.encabezado {
+	background-image: url('../../img/fondo verduras.jpeg');
+	height: 100vh;
+	min-height: 50rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	z-index: 1;
+}
+
+.encabezado::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -1;
+}
+
+.encabezado {
+	width: 100%;
+	height: 100%;
+}
+.contenido-navegacion {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: var(--verde);
+	box-shadow: 10px 10px 16px -6px var(--verdeClaro);
+}
+.logo {
+	display: flex;
+	align-items: center;
+}
+.logo img {
+	height: 60px;
+	margin-right: 12px;
+	margin-right: 10px;
+}
+.logo h2 {
+	font-size: 1.8rem;
+	color: var(--verdeClaro);
+	text-align: center;
+	margin-right: 10px;
+}
+.logo h2 span {
+	font-size: 1.3rem;
+}
+
+.logo span:hover {
+	color: var(--claro);
+}
+
+.logo h2:hover {
+	color: var(--claro);
+}
+.logo input {
+	color: var(--verdeClaro);
+	font-size: 1.3rem;
+	border-radius: 5px;
+	color: var(--verde);
+	padding: 6.5px 80px;
+	margin-left: 15rem;
+	outline: 2px solid var(--verde);
+}
+
+input[type='submit'] {
+	background-color: var(--amarilloVerde);
+	border: none;
+	padding: 7px 20px;
+	margin: 0.5rem;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type='submit']:hover {
+	background-color: var(--verdeClaro);
+}
+
+.navegacion a {
+	font-size: 1.3rem;
+	padding: 1rem;
+	color: var(--verdeClaro);
+	text-decoration: none;
+	transition: background-color all 0.3s ease-in-out;
+}
+
+.navegacion :hover {
+	color: var(--claro);
+	cursor: pointer;
+}
+.contenido-encabezado {
+	text-align: center;
+}
+.contenido-encabezado {
+	background-size: cover;
+	background-position: center;
+	height: 320px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.texto-encabezado {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100%;
+}
+
+.texto-encabezado h1 {
+	font-size: 6rem;
+	color: var(--blanco);
+	transition: transform 0.3s ease-in-out;
+}
+.texto-encabezado h1:hover {
+	color: var(--verdeClaro);
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.text {
+	background-color: var(--claro);
+	background-size: cover;
+	background-position: center;
+	height: 320px;
+	justify-content: center;
+	text-align: center;
+}
+
+.text p {
+	font-size: 3rem;
+	font-weight: bold;
+	color: black;
+	padding-top: 14rem;
+}
+
+/*Que hacemos*/
+
+.hacemos {
+	padding: 0.5rem;
+	background-color: var(--claro);
+}
+
+.hacemos h2 {
+	text-align: center;
+	padding-bottom: 8rem;
+	font-size: 6rem;
+	font-weight: 700;
+	color: var(--verde);
+}
+
+.conectamos {
+	text-align: center;
+	background-color: var(--verde);
+	width: 104%;
+	padding: 1.5rem;
+}
+
+.conectamos img {
+	width: 35rem;
+	height: 22rem;
+	transition: transform 0.3s ease-in-out;
+}
+
+.conectamos img:hover {
+	transform: scale(1.1);
+}
+
+.conectamos p {
+	margin-top: 1.5rem;
+	font-size: 1.9rem;
+	color: var(--claro);
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.conectamos:hover p {
+	opacity: 1;
+}
+
+.contenido-hacemos {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3rem;
+}
+
+.username {
+	color: var(--verdeClaro);
+	font-size: 1.5rem;
+	margin: 2rem;
+}
+
+.btn-logout {
+	background-color: var(--verde);
+	color: var(--verdeClaro);
+}

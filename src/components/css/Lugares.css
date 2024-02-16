@@ -1,0 +1,122 @@
+/*Lugares*/
+.lugares {
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	height: 32rem;
+}
+.lugares h2 {
+	text-align: center;
+	color: var(--amarilloVerde);
+	font-size: 10rem;
+	background-position: center;
+	transition: transform 0.3s ease-in-out;
+}
+.lugares h2:hover {
+	color: var(--verde);
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.lugares .title1 {
+	color: var(--verde);
+	padding-top: 2rem;
+	font-size: 1.5rem;
+}
+
+.title1 h1 {
+	font-weight: 600;
+	padding-bottom: 2rem;
+	padding-top: 1rem;
+}
+
+.lugares .texto1 {
+	color: black;
+	padding-bottom: 2rem;
+	margin: 1rem;
+}
+
+.texto1 p {
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+/*Imagenes contenedor*/
+
+.img img {
+	margin: auto;
+	width: 80rem;
+	height: 45rem;
+	margin: 3rem;
+	transition: transform 0.3s ease-in-out;
+}
+.img img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.lugar1 {
+	padding-top: 3rem;
+}
+
+/*Botones final*/
+.btap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.boton {
+	margin: 0 10px;
+	padding: 10px 20px;
+}
+
+.boton button {
+	font-size: 2.5rem;
+	padding: 12px 14px;
+	background: var(--verde);
+	border-radius: 16px;
+	cursor: pointer;
+	color: var(--blanco);
+	margin-top: 2rem;
+}
+.boton button:hover {
+	background-color: var(--amarilloVerde);
+}
+.btaf {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.botones {
+	margin: 0 10px;
+	padding: 10px 10px;
+}
+
+.botones button {
+	font-size: 1.3rem;
+	padding: 12px 14px;
+	background: var(--verde);
+	border-radius: 16px;
+	cursor: pointer;
+	color: var(--blanco);
+	margin-left: 10px;
+	margin-top: 2rem;
+}
+.botones button:hover {
+	background-color: var(--amarilloVerde);
+}
+
+.botones1 {
+	margin: 0 10px;
+	padding: 10px 20px;
+}
+.botones1 button {
+	font-size: 1.3rem;
+	padding: 12px 40px;
+	background: var(--verde);
+	border-radius: 16px;
+	cursor: pointer;
+	color: var(--blanco);
+	margin-left: 10px;
+	margin-top: 2rem;
+}

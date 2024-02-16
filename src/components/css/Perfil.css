@@ -1,0 +1,111 @@
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.columna-1 {
+	width: 50%;
+	margin: 4rem;
+}
+
+.columna-1 h1 {
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	color: var(--verde);
+}
+.columna-1 img {
+	align-items: center;
+	width: 24rem;
+	height: 20rem;
+}
+.columna button {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 40%;
+	height: 3rem;
+	background-color: var(--verde);
+	color: var(--claro);
+}
+.columna-1 p {
+	text-align: left;
+	font-size: 1.5rem;
+	font-weight: 100;
+	margin-top: 0.5rem;
+}
+.columna-1 input {
+	width: 90%;
+	margin-right: 18rem;
+	height: 3rem;
+}
+.columna-1 select {
+	width: 90%;
+	margin-right: 18rem;
+	height: 3rem;
+}
+.columna-1,
+.columna button {
+	text-align: center;
+}
+.columna button:hover {
+	cursor: pointer;
+	background-color: var(--amarilloVerde);
+}
+.columna-2 {
+	width: 50%;
+}
+
+.columna-2 {
+	text-align: center;
+	width: 50%;
+	margin: 13rem;
+}
+.columna-2 .logo {
+	margin-top: 7rem;
+	margin-bottom: 1rem;
+	width: 20rem;
+	height: 20rem;
+}
+.columna-2 h2 {
+	font-size: 2.5rem;
+	color: var(--amarilloVerde);
+}
+.columna-2 p {
+	text-align: left;
+	font-size: 1.5rem;
+	font-weight: 100;
+	margin-top: 0.5rem;
+}
+.columna-2 input {
+	width: 90%;
+	margin-right: 18rem;
+	height: 3rem;
+}
+.columna-2 select {
+	width: 90%;
+	margin-right: 18rem;
+	height: 3rem;
+}
+
+.parrafo p {
+	font-size: 2rem;
+	color: var(--amarilloVerde);
+}
+/*Boton coliumna 2*/
+.columna2 button {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	width: 40%;
+	height: 3rem;
+	background-color: var(--verde);
+	color: var(--claro);
+}
+.columna2 button:hover {
+	cursor: pointer;
+	background-color: var(--amarilloVerde);
+}

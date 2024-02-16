@@ -1,0 +1,44 @@
+/*Container*/
+
+.ruta {
+	text-align: center;
+}
+
+.ruta h1 {
+	font-size: 3rem;
+	color: var(--verde);
+	padding-bottom: 3rem;
+}
+
+.ruta img {
+	width: 70rem;
+	height: 40rem;
+}
+
+.ruta:hover img {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+.ruta p {
+	font-size: 2rem;
+	font-weight: 600;
+	margin-top: 3rem;
+}
+
+.bta-fecha {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.bta-fecha button {
+	font-size: 1.5rem;
+	font-weight: 800;
+	padding: 1rem;
+	background: var(--verde);
+	cursor: pointer;
+	color: var(--blanco);
+}
+
+.bta-fecha button:hover {
+	background-color: var(--amarilloVerde);
+}

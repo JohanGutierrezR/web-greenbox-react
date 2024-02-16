@@ -1,0 +1,44 @@
+:root {
+	--claro: #ffffe9;
+	--verde: #114e38;
+	--verdeClaro: #dadfb9;
+	--amarilloVerde: #76a636;
+	--blanco: white;
+	--texto: 'Montserrat', sans-serif;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	margin: -8px;
+}
+body {
+	font-size: 1.6 rem;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+p {
+	font-size: 1rem;
+}
+
+/*Estilos golbales*/
+
+h1,
+h2,
+h3 {
+	font-family: var(--texto);
+}
+
+p,
+a {
+	font-family: var(--texto);
+}
+.contenedor {
+	margin: 0 auto;
+	max-width: 120rem;
+	width: 95%;
+}
